@@ -1,5 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 
+// Custom hook
+
 export function useNearScreen () {
   const element = useRef(null)
   const [show, setShow] = useState(false)
