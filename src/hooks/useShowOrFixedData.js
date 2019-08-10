@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 
+// Custom hook
 export function useShowOrFixedData () {
   const [showFixed, setShowFixed] = useState(false)
 
