@@ -1,5 +1,5 @@
 import React from 'react'
-import { PhotoCardWithQuery } from '../container/PhotoCardWithQuery'
+import { PhotoCardWithQuery } from '../containers/PhotoCardWithQuery'
 
 export const Detail = ({ detailId }) => (
   <PhotoCardWithQuery id={detailId} />
