@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import { ListOfCategories } from '../components/ListOfCategories'
-import { ListOfPhotoCardsWithQuery } from '../container/ListOfPhotoCardsWithQuery'
+import { ListOfPhotoCardsWithQuery } from '../containers/ListOfPhotoCardsWithQuery'
 
 export const Home = ({ categoryId }) => {
   return (
