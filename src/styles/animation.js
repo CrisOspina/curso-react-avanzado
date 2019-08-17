@@ -61,3 +61,8 @@ export const Circle = styled.circle`
 export const Svg = styled.svg`
   animation: 2s linear infinite ${loadingSvg};
 `
+
+export const ContainerLoading = styled.div`
+  display:flex;
+  justify-content:center;
+`
