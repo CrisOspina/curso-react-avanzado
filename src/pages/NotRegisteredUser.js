@@ -1,13 +1,14 @@
-import React, { Fragment, useContext } from 'react'
+import React, { useContext } from 'react'
+import { Layout } from '../components/Layout'
 import { Context } from '../Context'
 import { UserForm } from '../components/UserForm'
 import { RegisterMutation } from '../containers/RegisterMutation'
 import { LoginMutation } from '../containers/LoginMutation'
 
-export const NotRegisteredUser = () => {
+export default () => {
   const { activateAuth } = useContext(Context)
   return (
-    <Fragment>
+    <Layout title='Welcome human' subtitle='Por favor registrate o inicia sesión para ver las maravillosas fotos de los animales no humanos'>
       <RegisterMutation>
         {
           (register, { data, loading, error }) => {
@@ -60,7 +61,7 @@ export const NotRegisteredUser = () => {
         }
       </LoginMutation>
 
-    </Fragment>
+    </Layout>
 
   )
 }
