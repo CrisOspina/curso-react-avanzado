@@ -8,7 +8,7 @@
  
 ## Runtime environment
 
-* `node --version` -> Required NodeJS
+* `node --version` -> Require NodeJS
 * `npm install` -> Install dependencies.
 * `npm run dev` -> Development .
 * `npm run test` -> Test.
