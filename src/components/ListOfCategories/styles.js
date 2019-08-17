@@ -2,13 +2,14 @@ import styled, { css } from 'styled-components'
 import { fadeIn } from '../../styles/animation'
 
 export const List = styled.ul`
+  margin-bottom: 10px;
   display: flex;
   overflow: scroll;
   width: 100%;
   overflow: -moz-scrollbars-none;
   -ms-overflow-style: none;
   width: 100%;
-  &::-webkit-scrollbar { width: 0 !important }
+  /* &::-webkit-scrollbar { width: 0 !important }; */
   ${props => props.fixed && css` 
     {
       background: #fff;
